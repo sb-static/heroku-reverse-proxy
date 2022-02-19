@@ -23,6 +23,7 @@ http {
 			proxy_pass <%= ENV["UPSTREAM_SERVER"] %>;
 			proxy_http_version 1.1;
 			proxy_buffering off;
+                        add_header Access-Control-Allow-Origin *;
 		}
 
 		# This forces HTTPS but we don't want that, we'll stay on port 80 http
