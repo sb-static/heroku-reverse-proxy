@@ -11,7 +11,7 @@ copy of the app, then configure the UPSTREAM_SERVER config variable.
 
 ## Credits
 
-Updated to heroku-16 stack and recent community build pack for nginx.
+Updated to heroku-20 stack and recent community build pack for nginx.
 
 Based on [octoberswimmer/heroku-reverse-proxy](https://github.com/octoberswimmer/heroku-reverse-proxy),
 originally forked from [api-proxy-3scale-heroku](https://github.com/Taytay/api-proxy-3scale-heroku).
